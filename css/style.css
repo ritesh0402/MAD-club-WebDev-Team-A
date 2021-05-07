@@ -4,7 +4,7 @@ body {
 }
 
 #div1sec1 , #div2sec1 , #div3sec1 , #bars {
-    background-color: #212124;
+    background-color: #232329;
     color: white;
     border: none;
 }
@@ -82,7 +82,7 @@ body {
 
 
 .b1 {
-    background-color: chartreuse;
+    background-color: rgba(14, 247, 6, 0.699);
     color: white;
     padding: 5px 20px 5px 20px;
     border-radius: 5px;
@@ -97,9 +97,11 @@ body {
 }
 
 #b3 {
+    position: relative; left: 95px;
     color: white;
     background-color: transparent;
     border: thin white;
+    font-size: x-small;
 }
 
 /* #bars {
@@ -126,11 +128,15 @@ h4 {
 
 p {
     text-align: center;
+    font-size: smaller;
 }
 
 #search {
-    color: #313138;
+    position: relative; left: 100px;
+    width: 110px;
+    color: #313138; 
     background-color: rgb(56, 56, 56);
     border-radius: 2px;
     border: none;
+    font-size: x-small;
 }
