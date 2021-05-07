@@ -1,48 +1,51 @@
 body {
-    /* background-color: rgb(143, 143, 143); */
+    background-color: rgb(177, 177, 177);
     font-family: 'Arial Narrow', Arial, sans-serif;
 }
 
 #div1sec1 , #div2sec1 , #div3sec1 , #bars {
-    background-color: rgb(0, 0, 0);
+    background-color: #2a2a2e;
     color: white;
     border: none;
 }
 
 #div1sec2 , #div2sec2 , #div3sec2{
-    background-color: rgb(39, 39, 39) ;
+    background-color: #313138 ;
     color: white;
     margin: -20px 0px -23px 0px;
 }
 
 #div1sec3 , #div2sec3 , #div3sec3{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 #div1 {
     position:absolute; top: 3px; left: 0px;
-    border: 1px solid black;
+    border: none;
+    box-shadow: 3px ipx 1px rgb(146, 146, 146);
     border-radius: 2px;
     height: 500px;
-    width: 227px;
+    width: 224px;
     margin: 8px;
 }
 
 #div2 {
-    position:absolute; top: 3px; left: 237px;
-    border: 1px solid black;
+    position:absolute; top: 3px; left: 234px;
+    border: none;
+    box-shadow: 3px ipx 1px rgb(146, 146, 146);
     border-radius: 2px;
-    height: 560px;
-    width: 366px;
+    height: 542px;
+    width: 364px;
     margin: 8px;
 }
 
 #div3 {
-    position:absolute; top: 3px; left: 614px;
-    border: 1px solid black;
+    position:absolute; top: 3px; left: 608px;
+    border: none;
+    box-shadow: 3px ipx 1px rgb(146, 146, 146);
     border-radius: 2px;
-    height: 591px;
-    width: 732px;
+    height: 594px;
+    width: 739px;
     margin: 8px;
 }
 
@@ -60,20 +63,20 @@ body {
     height: 34px;
 }
 #div2sec2{
-    height: 343px;
+    height: 357px;
 }
 #div2sec3{
-
+    height: 153px;
 }
 #div3sec1{
     height: 34px;
 }
 #div3sec2{
     margin-bottom: -400;
-    height: 357px;
+    height: 375px;
 }
 #div3sec3{
-    height: 200px;
+    height: 184px;
     position: relative; top: 2px;
 }
 
@@ -88,8 +91,15 @@ body {
 .b2 {
     background-color: white;
     color: blue;
+    border: thin;
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
+}
+
+#b3 {
+    color: white;
+    background-color: transparent;
+    border: thin white;
 }
 
 /* #bars {
@@ -98,7 +108,28 @@ body {
     border: none;
 } */
 
+ul {
+    display: inline;
+}
+
 li {
     display: inline;
 }
 
+h1 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#search {
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 56, 56);
+    border-radius: 2px;
+    border: none;
+}
