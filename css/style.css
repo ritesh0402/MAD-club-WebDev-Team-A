@@ -4,7 +4,7 @@ body {
 }
 
 #div1sec1 , #div2sec1 , #div3sec1 , #bars {
-    background-color: #2a2a2e;
+    background-color: #212124;
     color: white;
     border: none;
 }
@@ -25,7 +25,7 @@ body {
     box-shadow: 3px ipx 1px rgb(146, 146, 146);
     border-radius: 2px;
     height: 500px;
-    width: 224px;
+    width: 225px;
     margin: 8px;
 }
 
@@ -35,7 +35,7 @@ body {
     box-shadow: 3px ipx 1px rgb(146, 146, 146);
     border-radius: 2px;
     height: 542px;
-    width: 364px;
+    width: 365px;
     margin: 8px;
 }
 
@@ -45,7 +45,7 @@ body {
     box-shadow: 3px ipx 1px rgb(146, 146, 146);
     border-radius: 2px;
     height: 594px;
-    width: 739px;
+    width: 741px;
     margin: 8px;
 }
 
@@ -109,6 +109,7 @@ body {
 } */
 
 ul {
+    position: relative; bottom: 8px;
     display: inline;
 }
 
@@ -128,7 +129,7 @@ p {
 }
 
 #search {
-    color: rgb(255, 255, 255);
+    color: #313138;
     background-color: rgb(56, 56, 56);
     border-radius: 2px;
     border: none;
