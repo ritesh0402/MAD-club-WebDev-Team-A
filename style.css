@@ -87,7 +87,7 @@ body {
 
 
 .b1 {
-    background-color: rgba(14, 247, 6, 0.699);
+    background-color: #09ff00a9;
     color: white;
     padding: 5px 20px 5px 20px;
     border-radius: 5px;
@@ -153,7 +153,7 @@ p {
 #search {
     position: relative; left: 100px;
     width: 110px;
-    color: #a8a8bd; 
+    color: #ffffff; 
     background-color: rgb(56, 56, 56);
     border-radius: 2px;
     border: none;
@@ -161,12 +161,13 @@ p {
 }
 
 #d2s2form {
+    position: relative; left: 55px; top: -11px;
     color: black;
     background-color: white;
-    padding: 10px;
+    padding: 0px 10px 10px 10px;
     border-radius: 3px;
-    width: 250px;
-    height: 200px;
+    width: 230px;
+    height: 215px;
 }
 
 #form2 {
@@ -174,8 +175,8 @@ p {
     background-color: white;
     padding: 10px;
     border-radius: 3px;
-    width: 200px;
-    height: 250px;
+    width: 210px;
+    height: 240px;
     position: relative; top: 48px; right: 100px;
     float: right;
 }
@@ -200,7 +201,7 @@ button {
 
 #d3s3p {
     width: 340px;
-    position: relative; top: -10px ; left: 200px;
+    position: relative; top: -23px ; left: 200px;
 }
 
 #d1s2h1 {
@@ -229,10 +230,16 @@ button {
     background-color: #6b6b74;
 }
 #d2s2h1 {
-    position: relative; top: 25px;
+    position: relative; top: 10px;
 }
 #d2s2p {
-    position: relative; left: 17px;
+    position: relative; left: 17px; top: -8px;
     width: 90%;
     line-height: 15px;
+}
+
+#forminput {
+    width: 95%;
+    border: 1px thin rgb(194, 194, 194);
+    height: 20px;
 }
