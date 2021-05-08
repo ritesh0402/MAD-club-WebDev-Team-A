@@ -5,7 +5,7 @@ E-mail id: riteshmestrypro@gmail.com
 Currently studing at TSEC.
 Task-1 HTML file is present in the repository with name index.html
 I have made sure that the buttons on the screen react to hovering or clicking as they would do in a real website.(The buttons won't redirect you anywhere (purposely))
-I was facing diffculty while finding the correct font ad colors but i was not successfull i findind the exact elements so please ignore that.
+I was facing diffculty while finding the correct font and colors but i was unsuccessfull in findind the exact elements so please ignore that.
 the images were also not that clear to understand all the paragraphs so i left those.
 Rest Everything is working fine.
 Link for this repository: https://ritesh0402.github.io/MAD-club-WebDev-Team-A/
