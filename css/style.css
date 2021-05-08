@@ -160,23 +160,13 @@ p {
     font-size: x-small;
 }
 
-.form > input[type=text], input[type=password] {
-        width: 80%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        box-sizing: border-box;
-}
-
-}
-
 #d2s2form {
+    color: black;
     background-color: white;
     padding: 10px;
     border-radius: 3px;
-    width: 80px;
-    height: 100px;
+    width: 250px;
+    height: 200px;
 }
 
 #form2 {
@@ -239,7 +229,7 @@ button {
     background-color: #6b6b74;
 }
 #d2s2h1 {
-
+    position: relative; top: 25px;
 }
 #d2s2p {
     position: relative; left: 17px;
