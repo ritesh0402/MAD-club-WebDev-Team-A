@@ -1,6 +1,9 @@
 body {
     background-color: rgb(177, 177, 177);
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: lighter;
 }
 
 #div1sec1 , #div2sec1 , #div3sec1 , #bars {
@@ -54,10 +57,11 @@ body {
 }
 #div1sec2{
     height: 261px;
+    font-weight: 100;
 }
 #div1sec3{
     height: 205px; 
-    position: relative; top: 2px;
+    position: relative; top: -1px;
 }
 #div2sec1{
     height: 34px;
@@ -74,10 +78,11 @@ body {
 #div3sec2{
     margin-bottom: -400;
     height: 375px;
+    position: relative; bottom: 7px;
 }
 #div3sec3{
     height: 184px;
-    position: relative; top: 2px;
+    position: relative; top: -8px;
 }
 
 
@@ -88,12 +93,20 @@ body {
     border-radius: 5px;
 }
 
+.b1:active {
+    border-style: inset;
+}
+
 .b2 {
     background-color: white;
     color: blue;
-    border: thin;
+    border: thin rgb(255, 255, 255);
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
+}
+
+.b2:active {
+    border-style: inset;
 }
 
 #b3 {
@@ -102,16 +115,19 @@ body {
     background-color: transparent;
     border: thin white;
     font-size: x-small;
+    height: 13px;
 }
 
-/* #bars {
-    color: white; 
-    background-color: black; 
-    border: none;
-} */
+#b3:hover {
+    background-color: #43434d;
+}
+
+#b3:active {
+    background-color: #6b6b74;
+}
 
 ul {
-    position: relative; bottom: 8px;
+    position: relative; bottom: 9px;
     display: inline;
 }
 
@@ -121,9 +137,12 @@ li {
 
 h1 {
     text-align: center;
+    font-weight: lighter;
+    line-height: 28px;
 }
-h4 {
+h6 {
     text-align: center;
+    font-weight: lighter;
 }
 
 p {
@@ -134,9 +153,96 @@ p {
 #search {
     position: relative; left: 100px;
     width: 110px;
-    color: #313138; 
+    color: #a8a8bd; 
     background-color: rgb(56, 56, 56);
     border-radius: 2px;
     border: none;
     font-size: x-small;
+}
+
+.form > input[type=text], input[type=password] {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+}
+
+}
+
+#d2s2form {
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    width: 80px;
+    height: 100px;
+}
+
+#form2 {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    width: 200px;
+    height: 250px;
+    position: relative; top: 48px; right: 100px;
+    float: right;
+}
+
+button {
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#p3 {
+    width: 40%; 
+    text-align: left;
+     position: relative; top: 100px;left: 90px;
+}
+
+#d3s2h1 {
+    font-size: xx-large;
+    position: relative;top: 115px; left: 89px;
+    width: 200px;
+    text-align: left;
+}
+
+#d3s3p {
+    width: 340px;
+    position: relative; top: -10px ; left: 200px;
+}
+
+#d1s2h1 {
+    position: relative; top: 30px;
+    line-height: 22px;
+}
+
+#d1s2p {
+    position: relative; top: 25px; left: 19px;
+    width: 85%;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#d1s3h1 {
+    line-height: 23px;
+}
+#d1s3p {
+    width: 90%;
+    position: relative; top: -12px; left: 12px;
+    line-height: 12px;
+}
+
+#bars:active {
+    background-color: #6b6b74;
+}
+#d2s2h1 {
+
+}
+#d2s2p {
+    position: relative; left: 17px;
+    width: 90%;
+    line-height: 15px;
 }
