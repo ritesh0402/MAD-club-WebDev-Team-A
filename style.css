@@ -127,7 +127,7 @@ body {
 }
 
 ul {
-    position: relative; bottom: 9px;
+    position: relative; bottom: -2px;
     display: inline;
 }
 
